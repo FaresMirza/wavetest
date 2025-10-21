@@ -1,9 +1,11 @@
 mariadb:
   image:
     repository: bitnamilegacy/mariadb
-    tag: latest
+    tag: 11.4.2
   architecture: "standalone"
   auth:
     database: "demo"
     username: "demo"
     password: "demo"
+
+    ##
