@@ -8,7 +8,7 @@ metadata:
 spec:
   source:
     path: apps
-    repoURL: 'https://github.com/kostis-codefresh/application-dependency-argocd.git'
+    repoURL: 'https://github.com/FaresMirza/wavetest.git'
     targetRevision: main
   destination:
     namespace: argocd
