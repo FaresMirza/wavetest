@@ -1,0 +1,9 @@
+mariadb:
+  image:
+    repository: bitnamilegacy/mariadb
+    tag: latest
+  architecture: "standalone"
+  auth:
+    database: "demo"
+    username: "demo"
+    password: "demo"
